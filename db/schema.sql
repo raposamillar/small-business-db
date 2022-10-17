@@ -12,6 +12,7 @@ CREATE TABLE role (
   title VARCHAR(30),
   salary DECIMAL,
   department_id INTEGER,
+  /*links a role to a specific department*/
   FOREIGN KEY (department_id) REFERENCES department(id)
 );
 
@@ -21,6 +22,7 @@ CREATE TABLE employee (
   last_name VARCHAR(30),
   role_id INTEGER,
   manager_id INTEGER,
+  /*links employee to their specific role in the role table */
   FOREIGN KEY (role_id) REFERENCES role(id),
   FOREIGN KEY (manager_id) REFERENCES employee(id)
 );
