@@ -12,7 +12,8 @@
   - [License](#license)
 
   ## Description 
-  Small Business DB assists entrepreneurs with data tracking by including tables and definitions for departments, roles, and employees.<br>This application is in-progress.<br><a href="https://drive.google.com/file/d/1R2N3VFLyq0rYReX1Yi4MyW4OWqgCTJDH/view?usp=sharing">Walkthrough Video Link</a>
+  Small Business DB assists entrepreneurs with data tracking by including tables and definitions for departments, roles, and employees.<br>This application is in-progress.<br><a href="https://drive.google.com/file/d/1R2N3VFLyq0rYReX1Yi4MyW4OWqgCTJDH/view?usp=sharing">Walkthrough Video Link</a><br><br>
+  N.B.: Bootcamp study project
   
   ## Installation 
   <br>1. Node.js (npm init)<br>2. npm i inquirer@8.2.4<br>3. npm i mysql2@2.3.3<br>4. npm i console.table@0.10.0<br>5. npm i dotenv@16.0.3
